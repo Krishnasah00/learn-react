@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.my-Btn {
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Simple pulse animation when the class is added */
+.pulse {
+  transform: scale(1.1);
+  background-color: #6deb1f;
+  color: white;
+}
